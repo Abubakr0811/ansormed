@@ -1,0 +1,35 @@
+.site-header{
+    
+}
+
+.sitenav{
+    font:status-bar;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.sitenav-list{
+    list-style-type: none;
+}
+
+.sitenav-link{
+
+}
+
+.button{
+    background-color: #DE2E54;
+    color: #fff;
+    width: 189px;
+    height: 47px;
+    border-radius: 8px;
+    padding: 12px, 24px, 12px, 24px;
+    text-decoration: none;
+}
+
+.section{
+    background-color: #0EB4C1;
+    color:white;
+}
