@@ -86,7 +86,7 @@
     font-weight: lighter;
 }
 
-.footer-div{
+.cfa-color{
     background-color: #0EB4C1;
 }
 
@@ -95,5 +95,14 @@
 }
 
 .footer-accept{
+    color: #fff;
     font-size: 35px;
+}
+
+.footer-div{
+    background-color: #000;
+}
+
+.footer-ul{
+    color: #fff;
 }
