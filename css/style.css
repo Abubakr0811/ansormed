@@ -1,3 +1,11 @@
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "open sans", "Arial", sans-serif;
+    letter-spacing: 0.5px;
+
+}
+
 .site-header{
     background-color: #fff;
 }
@@ -16,9 +24,10 @@
 }
 
 .sitenav-link{
+    font-family: "open sans", "arial", sans-serif;
     font-size: 13px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: normal;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -44,17 +53,19 @@
 }
 
 .hero-heading{
-   font-size: 36px;
-   line-height: 43.2px;
-   text-align: right 170px;
-   font-weight: bolder;
-   color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    line-height: 43.2px;
+    text-align: right 170px;
+    font-weight: 700;
+    color: #fff;
 }
 
 .hero-text{
+    font-family: "Open Sans", "arial", sans-serif;
     font: initial;
     font-size: 18px;
-    font-weight: lighter;
+    font-weight: 400;
     line-height: 27px;
     letter-spacing: 0px;
     text-align: left;
@@ -66,8 +77,9 @@
 }
 
 .services-heading{
+    font-family: "roboto condensed", "arial", sans-serif;
     line-height: 120%;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 .services-images{
@@ -76,14 +88,17 @@
 }
 
 .services-text{
+    font-family: "roboto condensed", "arial", sans-serif;
+    font-weight: 700;
     color: black;
     font-size: 35px;
 }
 
 .services-essay{
+    font-family: "open sans", "arial", sans-serif;
     color: black;
     font-size: 23px;
-    font-weight: lighter;
+    font-weight: 400;
 }
 
 .cfa-color{
@@ -95,6 +110,8 @@
 }
 
 .footer-accept{
+    font-family: "roboto condensed", "arial", sans-serif;
+    font-weight: 700;
     color: #fff;
     font-size: 35px;
 }
@@ -104,5 +121,8 @@
 }
 
 .footer-ul{
+    font-family: "open sans", "arial", sans-serif;
+    font-weight: 400;    
     color: #fff;
 }
+
