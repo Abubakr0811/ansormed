@@ -8,34 +8,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <!-- CLOSE -->
 </head>
 <body>
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <!-- SITE HEADER -->
     <header class="site-header">
-        <a href="index.html">
-            <img src="img/logo.svg" alt="logotip rasmi" width="185" height="50">
-    </a>
-    <nav class="sitenav">
-        <ul class="sitenav-list">
-            <li class="sitenav-link">Xizmatlar</li>
-            <li class="sitenav-link">Dorilar</li>
-            <li class="sitenav-link">Asal</li>
-            <li class="sitenav-link">Kontaktlar</li>
-            <li class="sitenav-link">Blog</li>
-        </ul>
-    </nav>
-        <a class="button" href="#">Qabulga Yozilish</a>
+        <div class="site-header-container container">
+            <a class="logo-link" href="index.html">
+                <img class="logo" src="img/logo.svg" alt="logotip rasmi" width="185" height="50">
+            </a>
+            <div class="site-header-actions">
+                <nav class="sitenav">
+                    <ul class="sitenav-list">
+                        <li class="sitenav-link">Xizmatlar</li>
+                        <li class="sitenav-link">Dorilar</li>
+                        <li class="sitenav-link">Asal</li>
+                        <li class="sitenav-link">Kontaktlar</li>
+                        <li class="sitenav-link">Blog</li>
+                    </ul>
+                </nav>
+               <a class="main-link" href="#">Qabulga Yozilish</a>
+            </div>
+        </div>
     </header>
 
     <!-- MAIN -->
     <main>
         <!-- HERO -->
         <div class="section">
-        <section><h1 class="hero-heading">Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.</h1>
-            <p class="hero-text">Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.</p>
-        <a class="button" href="#">Qabulga yozilish</a>
-        <img class="hero-img" src="img/hero-img.svg" alt="" width="423" height="504">
+        <section>
+                <div class="hero-inner">
+                    <div class="hero-divider">
+                        <h1 class="hero-heading">Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling.</h1>
+                            <p class="hero-text">Hijoma, manual terapiya, zuluk va turli tabiiy giyohlar eng ko’p uchraydigan kasalliklarni yengishda yordam beradi. Sog’ligingizni o’z ishining professionallariga ishonib topshiring.</p></div>
+                    
+                      <img class="hero-img" src="img/hero-img.svg" alt="" width="423" height="504">
+                </div>
+                <a class="main-link main-button-two" href="#">Qabulga yozilish</a>
     </section>
 </div>
 
@@ -60,7 +71,7 @@
                 
                
 
-                <a class="button" href="#">Qabulga yozilish</a>
+                <a class="main-link" href="#">Qabulga yozilish</a>
 
         </section>
 
@@ -68,8 +79,8 @@
         <section class="CFA">
             <!-- CFA -->
             <h1 class="footer-accept">Qabulga ro’yxatdan o’ting</h1>
-            <a class="button" href="#">qo`ngiroq qilish </a>
-            <a class="button" href="#">Telegramdan yozish</a>
+            <a class="main-link" href="#">qo`ngiroq qilish </a>
+            <a class="main-link" href="#">Telegramdan yozish</a>
         </section>
     </div>
 
