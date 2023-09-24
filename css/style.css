@@ -207,7 +207,14 @@ body{
     font-weight: 400;
 }
 
+.main-link-three{
+    margin-left: 626px;
+}
+ 
 .cfa-color{
+    padding-top: 64px;
+    padding-left: 537px;
+    padding-bottom: 40px;
     background-color: #0EB4C1;
 }
 
@@ -220,6 +227,15 @@ body{
     font-weight: 700;
     color: #fff;
     font-size: 35px;
+}
+
+.main-button{
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 12px 24px;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
 }
 
 .footer-div{
